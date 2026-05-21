@@ -1,18 +1,17 @@
-# Agent News Digest
+# Agent News
 
 > Daily AI agent news, automatically archived from [OMC News](https://news.one-man-company.com).
 
 This repository is a daily auto-generated archive of [OMC News](https://news.one-man-company.com) — the dedicated AI agent news channel of the [One Man Company](https://one-man-company.com) platform.
 
-Every article covering AI agent releases, hot GitHub repos, MCP tool updates, Claude Code news, and the autonomous AI workforce is committed here as a Markdown file within 24 hours of publication.
-
 ## Structure
 
 ```
-YYYY/
-  MM/
-    DD-digest.md          ← daily digest (all articles for that day)
-    article-slug.md       ← individual article (full content)
+daily-digest/
+  YYYY-MM-DD.md          ← daily digest (all articles for that day)
+
+daily-news/
+  YYYY-MM-DD-slug.md     ← individual article (full content)
 ```
 
 ## Coverage
